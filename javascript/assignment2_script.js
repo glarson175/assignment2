@@ -1,1 +1,5 @@
-this will eventually be my javascript file
+$(document).ready(function(){
+    $('button').click(function() {
+        $('.radio').fadeOut('slow');
+    });  
+});

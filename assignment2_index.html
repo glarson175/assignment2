@@ -7,34 +7,60 @@
     <link rel="stylesheet" href="./css/assignment2.css">
 		
   </head>
-  <body id="body">
+  <body>
 	<header>
 	  
 	</header>
 	
-	<form method="get" action="/">
-	  <fieldset class="group">
-	    <input type="text" required/>
-	    <span class="highlight"></span>
-	    <span class="bar"></span>
-	    <label class="bar">LABEL FOR TEXTBOX1</label>
-	  </fieldset>
-	  <fieldset class="group">
-	    <input type="text" required/>
-	    <span class="highlight"></span>
-	    <span class="bar"></span>
-	    <label class="bar">LABEL FOR TEXTBOX2</label>
-	  </fieldset>
-	  <fieldset class="group">
-	    <input type="checkbox" required/>
-	    <span class="highlight"></span>
-	    <span class="bar"></span>
-	    <label class="bar">CLICK JUST FOR THE HECK OF IT!</label>
-	  </fieldset>
+	<form method="get" action="/" id="form">
+	  <fieldset class="hidden">
+			<input type="hidden" name="visit" value="new">
+			<input type="hidden" name="user" value="gsl13@pitt.edu">
+			<input type="hidden">
+		</fieldset>
+		<fieldset class="text">
+			<div class="input-holder">
+				<label for="fname">First name:</label>
+				<input type="text" name="fname">
+			</div>
+			<div class="input-holder">
+				<label for="lname">Last name:</label>
+				<input type="text" name="lname">
+			</div>
+			<div class="input-holder">
+				<input type="checkbox" name="ComicLover"/>
+				<label for="ComicLover">Check if you LOVE comic books, trust me. Check it.</label>
+			</div>
+		</fieldset>
+			<fieldset class="radio">
+			<div class="radio-holder">
+				<input type="radio" name="rad" value="marvelrad">
+				<label for="marvelrad">Marvel</label>
+			</div>
+			
+			<div class="radio-holder">
+				<input type="radio" name="rad" value="DCcomicsrad">
+				<label for="DCcomicsrad">DC Comics</label>
+			</div>
+			<div class="radio-holder">
+				
+				<input type="radio" name="rad" value="Both">
+				<label for="DCcomicsrad">Both</label>
+			</div>
+			</fieldset>
+			<fieldset class="color">
+				<div class="color-holder">
+					<input type="color" name="color-picker">
+					<label for="color-picker">Pick a Color!!</label>
+					
+			</fieldset>
+				<input type="submit" value="Submit">
+				<button>Click Me!</button>
+		
 	</form>
 	
 	<footer>
-	  <p id="character-entities" style="color:blue">
+	  <p id="character-entities">
 	  &copy; 2016 Gabe Larson! MINE!! NO TOUCHY!
 	  </p>
 	  
