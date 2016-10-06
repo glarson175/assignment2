@@ -1,7 +1,4 @@
-$(document).ready(function(){
-    $('ComicLover').change(function() {
-        $('.radio').fadeOut('slow');
-    });  
+$(document).ready(function() {
+	$('#radio').hide();
 });
-
-i wanna make stuff work. blah
+$(function() { /* code here */ });
