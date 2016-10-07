@@ -1,17 +1,33 @@
 body, html {
-  font-size: 90%;
+	font-size: 90%;
 	margin:10;
 	font-family:'helvetica';
-	align:center;
-}
-input{
-	
 	text-align:center;
+}
+input.radio{
+	
 }
 footer>p{
 	color:blue;
-	font-size:3em;
+	font-size:2em;
 }
+#form-container{
+	margin-left:25%;
+	margin-top:10%;
+	height:125x;
+	width:50%;
+	background-color:#00FF80;
+}
+#radio{
+	text-align:left;
+	padding-left:30%;
+}
+
+.error{
+	border-color:red;
+}
+
+
 
 
 
